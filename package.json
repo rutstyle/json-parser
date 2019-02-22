@@ -1,0 +1,21 @@
+{
+  "name": "json-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:init": "./node_modules/.bin/karma.cmd init",
+    "test:start": "./node_modules/.bin/karma.cmd start",
+    "test:stop": "./node_modules/.bin/karma.cmd stop"
+  },
+  "author": "rutstyle@163.com",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine-core": "^3.3.0",
+    "karma": "^4.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-webpack": "^3.0.5",
+    "webpack": "^4.29.5"
+  }
+}

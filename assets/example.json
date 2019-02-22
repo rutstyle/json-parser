@@ -1,0 +1,31 @@
+{
+    "employees": [
+        {
+            "firstName": "Bill",
+            "lastName": "Gates"
+        },
+        {
+            "firstName": "George",
+            "lastName": "Bush"
+        },
+        {
+            "firstName": "Thomas",
+            "lastName": "Carter"
+        },
+        {
+            "firstName": "Thomas",
+            "lastName": {
+                "name": "Carter"
+            },
+            "score": [
+                1,
+                2,
+                3,
+                null,
+                {
+                    "name": "Carter"
+                }
+            ]
+        }
+    ]
+}
